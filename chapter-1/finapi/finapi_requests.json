@@ -1,0 +1,359 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2021-08-26T11:33:50.309Z",
+    "__export_source": "insomnia.desktop.app:v2021.5.0",
+    "resources": [
+        {
+            "_id": "req_1c3a59992cf74383980fa2e9d6bf6b16",
+            "parentId": "wrk_12d9796cce154061b5f533eddfcb8699",
+            "modified": 1629842917974,
+            "created": 1629842900118,
+            "url": "{{ _.base_url }}/balance",
+            "name": "Balance",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "id": "pair_5488f105323e4df5a3f30f658281284b",
+                    "name": "cpf",
+                    "value": "333333333",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1629842900118,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_12d9796cce154061b5f533eddfcb8699",
+            "parentId": null,
+            "modified": 1629841125205,
+            "created": 1629841125205,
+            "name": "Ignite - Node.js - FinAPI",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_d704879cedff431492c98802e2845020",
+            "parentId": "wrk_12d9796cce154061b5f533eddfcb8699",
+            "modified": 1629842782278,
+            "created": 1629842759499,
+            "url": "{{ _.base_url }}/account",
+            "name": "Delete Account",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "id": "pair_fc83e635e0df481aa11e7ecd12b3e5e2",
+                    "name": "cpf",
+                    "value": "333333333",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1629842759499,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_4706d584d5904c95862c30be5a007140",
+            "parentId": "wrk_12d9796cce154061b5f533eddfcb8699",
+            "modified": 1629842618712,
+            "created": 1629842602564,
+            "url": "{{ _.base_url }}/account",
+            "name": "Account",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "id": "pair_a77f35190b9b486abfdaf466d29eb8a0",
+                    "name": "cpf",
+                    "value": "333333333",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1629842602564,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_a26dd3465fc1459cbc3c6b91a9bf3396",
+            "parentId": "wrk_12d9796cce154061b5f533eddfcb8699",
+            "modified": 1629842553370,
+            "created": 1629842522517,
+            "url": "{{ _.base_url }}/account",
+            "name": "Update Account",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"Gabriel Rodrigues\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_e5f6189091584e85b6846ea3215ae84d"
+                },
+                {
+                    "id": "pair_475edadea028434c93ffc989e64450e7",
+                    "name": "cpf",
+                    "value": "333333333",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1629842522517,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_46c5171051de456b950eb907b92d57bd",
+            "parentId": "wrk_12d9796cce154061b5f533eddfcb8699",
+            "modified": 1629842414403,
+            "created": 1629841950829,
+            "url": "{{ _.base_url }}/statement/date",
+            "name": "Statement by date",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [
+                {
+                    "id": "pair_683c9fff12c64d89bbef2fb5be2be402",
+                    "name": "date",
+                    "value": "2021-08-24",
+                    "description": ""
+                }
+            ],
+            "headers": [
+                {
+                    "id": "pair_76d26a7a60824ee2951420f0a9c33fd7",
+                    "name": "cpf",
+                    "value": "333333333",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1629841950829,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_b21b46955c0c469f9ea792161d43df8f",
+            "parentId": "wrk_12d9796cce154061b5f533eddfcb8699",
+            "modified": 1629841358296,
+            "created": 1629841147459,
+            "url": "{{ _.base_url }}/withdraw",
+            "name": "Withdraw",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"amount\": 100\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_5e215548a3a14a4aa927e63aae787db8"
+                },
+                {
+                    "id": "pair_a95ae2b1934d4fdc9f150068efe9f6cf",
+                    "name": "cpf",
+                    "value": "333333333",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1629841169213,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_ca14cc878ca248cebf00b8286d90b079",
+            "parentId": "wrk_12d9796cce154061b5f533eddfcb8699",
+            "modified": 1629841435247,
+            "created": 1629841154992,
+            "url": "{{ _.base_url }}/deposit",
+            "name": "Deposit",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"description\": \"Transferência\",\n\t\"amount\": 100\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_6e3c4965dbfa49a79832f302020449c8"
+                },
+                {
+                    "id": "pair_3914249f07f5461cbc9fa84433a450bb",
+                    "name": "cpf",
+                    "value": "333333333",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1629841169188,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_02fd1f68da1248e6a377cd1a8fd22e26",
+            "parentId": "wrk_12d9796cce154061b5f533eddfcb8699",
+            "modified": 1629841538631,
+            "created": 1629841160995,
+            "url": "{{ _.base_url }}/statement",
+            "name": "Statement",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "id": "pair_4435e25bb9b14527b44178ed68db9db6",
+                    "name": "cpf",
+                    "value": "333333333",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1629841160995,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_6085e5c74bb449d1aeb00a3c6f4ef408",
+            "parentId": "wrk_12d9796cce154061b5f533eddfcb8699",
+            "modified": 1629842908894,
+            "created": 1629841169163,
+            "url": "{{ _.base_url }}/account",
+            "name": "Create",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"cpf\": \"333333333\",\n\t\"name\": \"Gabriel Rodrigues\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_5b4e92da3f944b47b367281c60a80986"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1629841160945,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_00dbd29e3c4cc9e94326c54cd441b21b6280a29a",
+            "parentId": "wrk_12d9796cce154061b5f533eddfcb8699",
+            "modified": 1629841206037,
+            "created": 1629841125395,
+            "name": "Base Environment",
+            "data": {
+                "base_url": "localhost:3333"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "base_url"
+                ]
+            },
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1629841125395,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_00dbd29e3c4cc9e94326c54cd441b21b6280a29a",
+            "parentId": "wrk_12d9796cce154061b5f533eddfcb8699",
+            "modified": 1629841125396,
+            "created": 1629841125396,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_50161092186e43dcbf7de0cae8992e59",
+            "parentId": "wrk_12d9796cce154061b5f533eddfcb8699",
+            "modified": 1629841125208,
+            "created": 1629841125208,
+            "fileName": "Ignite - Node.js - FinAPI",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        }
+    ]
+}
