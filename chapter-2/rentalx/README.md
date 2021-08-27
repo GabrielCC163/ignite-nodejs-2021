@@ -6,4 +6,5 @@
 ### Concepts:
 * ESLint, Prettier, Debug
 * S.O.L.I.D
-* 
+* Singleton
+* File upload with Multer
