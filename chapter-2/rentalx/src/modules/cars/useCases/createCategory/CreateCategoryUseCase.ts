@@ -1,5 +1,5 @@
-import { Category } from '../models/Category';
-import { ICategoriesRepository } from '../repositories/ICategoriesRepository';
+import { Category } from '../../models/Category';
+import { ICategoriesRepository } from '../../repositories/ICategoriesRepository';
 
 interface IRequest {
   name: string;
@@ -8,7 +8,7 @@ interface IRequest {
 
 // SOLID - D => DIP => Dependency Inversion Principle
 // service call repository
-class CreateCategoryService {
+class CreateCategoryUseCase {
   constructor(private categoriesRepository: ICategoriesRepository) {}
 
   execute({ name, description }: IRequest): Category {
@@ -27,4 +27,4 @@ class CreateCategoryService {
   }
 }
 
-export { CreateCategoryService };
+export { CreateCategoryUseCase };
