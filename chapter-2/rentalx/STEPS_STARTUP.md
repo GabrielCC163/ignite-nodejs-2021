@@ -6,3 +6,4 @@
 5. Set "outDir": "./dist" into tsconfig.json
 6. Set dev script into package.json
 7. Disable strict into tsconfig.json
+8. Enable resolveJsonModule into tsconfig.json

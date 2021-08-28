@@ -8,6 +8,7 @@
 * S.O.L.I.D
 * Singleton
 * File upload with Multer
+* Swagger
 
 # Structure
 
