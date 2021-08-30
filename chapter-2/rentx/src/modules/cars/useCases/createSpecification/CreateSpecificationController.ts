@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 
-import { Specification } from '../../models/Specification';
+import { Specification } from '../../entities/Specification';
 import { CreateSpecificationUseCase } from './CreateSpecificationUseCase';
 
 class CreateSpecificationController {
