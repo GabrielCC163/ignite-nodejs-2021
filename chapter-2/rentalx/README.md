@@ -7,9 +7,15 @@
 * ESLint, Prettier, Debug
 * S.O.L.I.D
 * Singleton
-* File upload with Multer
+* File/image upload with Multer
 * Swagger
+* Docker & Docker-Compose
+* TypeORM
+* Dependency Injection with TSyringe
+* Auth with JWT
 
+### To learn
+* Microsservices, Redis, RabbitMQ, Kafka, Kubernets, MongoDB, GraphQL
 # Structure
 
 src/
