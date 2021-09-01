@@ -9,9 +9,11 @@ interface ICreateCategoryDTO {
 // SOLID - L => LSP => Liskov Substitution Principle
 // ICategoriesRepository (every repository can implement this)
 interface ICategoriesRepository {
-  findByName(name: string): Category;
-  list(): Category[];
-  create({ name, description }: ICreateCategoryDTO): Category;
+  findByName(name: string): Promise<Category>;
+
+  list(): Promise<Category[]>;
+
+  create({ name, description }: ICreateCategoryDTO): Promise<Category>;
 }
 
 export { ICategoriesRepository, ICreateCategoryDTO };
