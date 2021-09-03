@@ -13,10 +13,9 @@
 * TypeORM
 * Dependency Injection with TSyringe
 * Auth with JWT
-* Tests, integração, unitário, funcional
 
 ### To learn
-* Microsservices, Redis, RabbitMQ, Kafka, Kubernets, MongoDB, GraphQL, Nest.js
+* Microsservices, Redis, RabbitMQ, Kafka, Kubernets, MongoDB, GraphQL
 # Structure
 
 src/

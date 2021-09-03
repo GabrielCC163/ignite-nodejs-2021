@@ -1,4 +1,4 @@
-import { Category } from '../entities/Category';
+import { Category } from '../models/Category';
 
 // DTO - Data Transfer object
 interface ICreateCategoryDTO {
@@ -9,11 +9,9 @@ interface ICreateCategoryDTO {
 // SOLID - L => LSP => Liskov Substitution Principle
 // ICategoriesRepository (every repository can implement this)
 interface ICategoriesRepository {
-  findByName(name: string): Promise<Category>;
-
-  list(): Promise<Category[]>;
-
-  create({ name, description }: ICreateCategoryDTO): Promise<Category>;
+  findByName(name: string): Category;
+  list(): Category[];
+  create({ name, description }: ICreateCategoryDTO): Category;
 }
 
 export { ICategoriesRepository, ICreateCategoryDTO };
