@@ -20,3 +20,8 @@ docker ps
 
 docker exec -it <container_name> /bin/bash
 ```
+
+### 6. Check logs
+```
+docker logs rentx -f
+```
