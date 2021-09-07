@@ -105,7 +105,7 @@ dist
         "warn",
         {
             "newlinesBetween": "always",
-            "groups": ["module", "/^@shared/", ["parent", "sibling", "index"]],
+            "groups": ["module", "/^@/", ["parent", "sibling", "index"]],
             "alphabetize": { "order": "asc", "ignoreCase": true }
         }
     ],
