@@ -30,3 +30,30 @@
     },
 }
 ```
+
+## Module structure
+```
+src/modules/<module_name>/
+```
+```
+- dtos/
+    <DTOInterfaceName>.ts // format: IDtoNameDTO.ts
+
+- infra/
+    typeorm/
+      entities/
+        <EntityName>.ts
+      repositories/
+        <RepositoryImplementationName>.ts // ends with Repository.ts
+
+- repositories/
+    in-memory/
+      <RepositoryImplementationInMemoryName> // ends with RepositoryInMemory.ts
+    <RepositoryInterfaceName>.ts // format: INameRepository.ts
+
+- useCases/
+    <useCaseName>/
+      <ControllerName>.ts
+      <UseCaseName>.ts
+      <TestName>.ts
+```

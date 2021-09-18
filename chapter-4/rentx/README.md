@@ -15,6 +15,7 @@
 * Auth with JWT
 * Unit tests and integration tests
 * TDD
+* Day.js
 
 ### To learn
-* Microsservices, Redis, RabbitMQ, Kafka, Kubernets, MongoDB, GraphQL, Nest.js, Prisma
+* Microsservices, Redis, RabbitMQ, Kafka, Kubernetes, MongoDB, GraphQL, Nest.js, Prisma
