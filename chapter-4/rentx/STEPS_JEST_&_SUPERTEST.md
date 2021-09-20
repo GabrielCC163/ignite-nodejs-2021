@@ -29,3 +29,24 @@ yarn jest --init
 ```bash
 yarn test
 ```
+
+## Supertest
+
+### 1. Install supertest
+```
+yarn add supertest @types/supertest -D
+```
+
+### 2. Create a new database **rentx_test**
+```sql
+create database rentx_test;
+```
+
+### 3. Set NODE_ENV=test into test script (package.json)
+
+### 4. Run tests
+```
+docker-compose up -d
+
+yarn test
+```
