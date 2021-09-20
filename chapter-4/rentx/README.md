@@ -13,7 +13,7 @@
 * TypeORM
 * Dependency Injection with TSyringe
 * Auth with JWT
-* Unit tests and integration tests
+* Unit tests and integration tests (Jest, Supertest)
 * TDD
 * Day.js
 
