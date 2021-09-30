@@ -29,7 +29,9 @@ yarn jest --init
 ```bash
 yarn test
 ```
+detectOpenHandles: run each test sequentially
 
+detectOpenHandles: wait for each test to finish
 ## Supertest
 
 ### 1. Install supertest

@@ -36,7 +36,7 @@ class CreateRentalUseCase {
     );
 
     if (carUnavailable) {
-      throw new AppError('Car is unavailable');
+      throw new AppError('Car is unavailable!');
     }
 
     // Não deve ser possível cadastrar aluguel caso já exista um aberto para o mesmo carro
