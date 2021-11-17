@@ -3,6 +3,15 @@
 
 ## Node.js API with TypeScript and Express.
 
+## Start
+```
+docker-compose up
+
+yarn typeorm migration:run
+
+yarn seed:admin
+```
+
 ### Concepts:
 * ESLint, Prettier, Debug
 * S.O.L.I.D
@@ -13,6 +22,7 @@
 * TypeORM
 * Dependency Injection with TSyringe
 * Auth with JWT
+* Password reset (in dev with Ethereal Email)
 * Unit tests and integration tests (Jest, Supertest)
 * TDD
 * Day.js
