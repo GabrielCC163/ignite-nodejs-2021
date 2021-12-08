@@ -1,15 +1,29 @@
 # RentalX API
+
 <i>Rocketseat - Ignite - Node.js</i>
 
 ## Node.js API with TypeScript and Express.
 
 ## Start
+
 ```
 docker-compose up
 
 yarn typeorm migration:run
 
 yarn seed:admin
+```
+
+## Test
+
+```
+docker-compose up
+
+yarn typeorm migration:run
+
+create a database rentx_test
+
+yarn test
 ```
 
 ### Concepts:
@@ -29,3 +43,4 @@ yarn seed:admin
 
 ### To learn
 * Microsservices, Redis, RabbitMQ, Kafka, Kubernetes, MongoDB, GraphQL, Nest.js, Prisma
+```
