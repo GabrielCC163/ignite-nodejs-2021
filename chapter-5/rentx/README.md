@@ -26,21 +26,32 @@ create a database rentx_test
 yarn test
 ```
 
-### Concepts:
-* ESLint, Prettier, Debug
-* S.O.L.I.D
-* Singleton
-* File (csv) / image upload with Multer
-* Swagger
-* Docker & Docker-Compose
-* TypeORM
-* Dependency Injection with TSyringe
-* Auth with JWT
-* Password reset (in dev with Ethereal Email)
-* Unit tests and integration tests (Jest, Supertest)
-* TDD
-* Day.js
+## Session
 
-### To learn
-* Microsservices, Redis, RabbitMQ, Kafka, Kubernetes, MongoDB, GraphQL, Nest.js, Prisma
-```
+**Login**
+
+- POST /sessions
+  - token (use into requests)
+  - refresh_token (use within next request when token expires)
+
+**Generate new token**
+
+- POST /refresh-token
+  - token (use in requests)
+  - refresh_token (use next time token is expires)
+
+### Concepts:
+
+- ESLint, Prettier, Debug
+- S.O.L.I.D
+- Singleton
+- File (csv) / image upload with Multer
+- Swagger
+- Docker & Docker-Compose
+- TypeORM
+- Dependency Injection with TSyringe
+- Auth with JWT
+- Password reset (in dev with Ethereal Email)
+- Unit tests and integration tests (Jest, Supertest)
+- TDD
+- Day.js
