@@ -55,3 +55,6 @@ yarn test
 - Unit tests and integration tests (Jest, Supertest)
 - TDD
 - Day.js
+- Mappers (class transformer)
+- AWS S3 (file storage service)
+- AWS SES (email sending service)
