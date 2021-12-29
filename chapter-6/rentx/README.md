@@ -57,4 +57,5 @@ yarn test
 - Day.js
 - Mappers (class transformer)
 - AWS S3 (file storage service)
-- AWS SES (email sending service)
+- AWS SES (email sending service - MUST HAVE A DOMAIN AND EMAIL ADDRESS)
+- AWS EC2 (deploy service)
